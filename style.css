@@ -5,8 +5,49 @@
 
 html,
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* Add styles here! */
+.max-width-wrapper {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 300px;
+  padding: 96px 24px 48px;
+}
+
+.title {
+  line-height: 5rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 5px solid hsl(0deg, 0%, 40%);
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 5px solid hsl(0deg, 0%, 40%);
+  margin-top: 96px;
+  padding: 24px;
+  padding-top: 8px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-left: -32px;
+  margin-top: 0px;
+  padding: 16px 32px;
+}
